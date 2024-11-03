@@ -1,6 +1,6 @@
-# Conveyor game
+# Kaylees car game
 
-This is all Rahn's idea, you can blame him I'm just the code monkey!
+Kaylee has told me she wants a game where you jump cars, collect money and spend the money on things
 
 # desktop mode
 
