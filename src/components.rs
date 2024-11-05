@@ -48,8 +48,19 @@ impl Player {
     }
 }
 
+
+#[derive(Default, Component, Reflect)]
+pub struct Car {
+    pub speed: f32
+}
+
+#[derive(Default, Component, Reflect)]
+pub struct Traffic {
+    pub time_since_last_car: f32,
+    pub next_car_at: f32
+}
+
 #[derive(Resource)]
 pub struct SpriteSheetHandles {
-    pub characters: Handle<TextureAtlas>,
-    pub tiles: Handle<TextureAtlas>
+    pub cars: Handle<TextureAtlas>
 }

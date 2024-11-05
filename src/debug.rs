@@ -14,6 +14,6 @@ impl Plugin for DebugPlugin {
         app.add_plugins(
             WorldInspectorPlugin::default().run_if(input_toggle_active(false, KeyCode::Escape))
         )
-        .register_type::<Player>();
+        .register_type::<Traffic>();
     }
 }
